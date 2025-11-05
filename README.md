@@ -20,9 +20,13 @@ O aplicativo foi desenvolvido para o trabalho de extensão da estacio, disciplin
 
 # Evidências e Testes
 
+Testes do aplicativo no Android Studio:
+
+<img width="766" height="727" alt="image" src="https://github.com/user-attachments/assets/b7565aaf-0d17-4179-bcd5-4944e758010a" />
+
+Vídeo do aplicativo compilado rodando no sansung galaxy s24:
 
 https://github.com/user-attachments/assets/0a67dc22-1794-454b-b669-6d72369702a5
 
-<img width="766" height="727" alt="image" src="https://github.com/user-attachments/assets/b7565aaf-0d17-4179-bcd5-4944e758010a" />
 
 
