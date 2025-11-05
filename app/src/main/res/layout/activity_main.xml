@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface">
+
+    <!-- Conteúdo principal -->
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="394dp"
+            android:layout_height="140dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logo_descricao"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/entrega" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Controle de Entregas"
+            android:textAlignment="center"
+            android:textColor="@color/textPrimary"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:text="Delícias da Nena"
+            android:textAlignment="center"
+            android:textColor="@color/textPrimary"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/inputTask"
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:backgroundTint="@color/textPrimary"
+            android:hint="Digite os dados da entrega."
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="@color/textSecondary" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/colorTaskDone"
+            android:text="Incluir"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/filterAll"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Todas"
+                android:textColor="@color/textPrimary"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/filterDone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Concluídas"
+                android:textColor="@color/textPrimary"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/filterPending"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pendentes"
+                android:textColor="@color/textPrimary"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/taskListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/primary"
+            android:dividerHeight="1dp"
+            android:paddingTop="8dp" />
+    </LinearLayout>
+
+</RelativeLayout>

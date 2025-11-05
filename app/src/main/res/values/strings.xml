@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entregas - Delícias da Nena</string>
+    <string name="logo_descricao">Logo do Aplicativo </string>
+    <string name="filter_icon">Filtro</string>
+    <string name="add_task_hint">Descrição do Entrega</string>
+    <string name="add_task_button">Incluir</string>
+    <string name="edit_task_title">Alterar Entrega</string>
+    <string name="save_button">Salvar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="empty_task_error">O campo de Descrição da entrega não pode estar vazio.</string>
+    <string name="empty_task_toast">Digite uma descrição para adicionar.</string>
+    <string name="filter_all">Todas</string>
+    <string name="filter_done">Concluídas</string>
+    <string name="filter_pending">Pendentes</string>
+</resources>
